@@ -1,0 +1,190 @@
+body {
+    font-family: Roboto;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* BANNER */
+.banner {
+    background: url("../media/NGT.jpg") no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+    color: White !important;
+    font-size: 36px;
+    font-weight: bold;    
+}
+.UpAndDown {
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.5); /* ĐEN + 50% */
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+/* SLOGAN */
+.slogan{
+    background: linear-gradient(#1e3a8a, #3b82f6);
+    width: 100%;
+    color: white;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -1;
+    max-width: 100%;
+}
+.block_3 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+}
+.block_3 a {
+    text-decoration: none;
+    color: white;
+}
+
+/* BẢNG ĐĂNG KÝ */
+.Register {
+    background: linear-gradient(#1e3a8a, #3b82f6);
+    width: 350px;
+    padding: 30px;
+    border-radius: 15px;
+    margin: 50px auto 0 auto;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+.input-group input, .input-group select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    box-sizing: border-box; /* Giúp Input Không Bị Tràn Viền */
+}
+
+/* BẢNG CHÍNH */
+.content {
+    font-size: 36px;
+    background: url("../media/bg2.png") no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    padding: 7rem;
+    max-width: 1250px;
+}
+.content td {
+    padding: 20px;
+    vertical-align: middle;
+}
+
+/* FOOTER */
+.footer{
+    background: linear-gradient(#1e3a8a, #3b82f6);
+    color: white;
+    width: auto;
+    height: auto;
+}
+.footer a:hover{
+    color: red;
+    }
+.block_2 {
+    flex: 0 0 auto;
+    width: 33.33333333%;	
+}
+.row2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -1;
+    max-width: 100%;
+}
+
+/* BACK TO TOP */
+.btt {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: linear-gradient(#1e3a8a, #3b82f6);
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 60px;
+    height: 60px;
+    font-size: 42px;   
+}
+/* KHÁC */
+a {
+    text-decoration: none;
+    color: white;
+}
+a img {
+        border: none;
+        cursor: pointer;
+        width: 200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 20px;
+}
+.decor {
+    width: 100%;
+}
+.TitleSet {
+    background: url("../media/bg1.png") no-repeat center center;
+    background-size: cover;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.TitleSet .caption {
+    margin-top: 10px;
+    font-size: 24px;
+    font-style: italic;
+}
+.list {
+    display: flex;
+    justify-content: center;
+}
+.HOME {
+    color: #1e3a8a;
+    font-size: 28px;
+}
+.EditList {
+    text-align: left;
+    font-size: 36px;
+}
+.TableTheThao {
+    border: 1px solid black; font-family: Time roman; font-size: 12px; width: 90%; height: auto; background-color: aliceblue; max-width: 1000px; margin: 30px auto;
+}
+.th1 {
+    border: 1px solid black; background-color: ForestGreen; color: white; padding: 10px; margin: 10px;
+}
+.th2 {
+    border: 1px solid black; background-color: DeepSkyBlue; color: white; padding: 10px; margin: 10px;
+}
+.th3{
+    border: 1px solid black; background-color: tomato; color: white; padding: 10px; margin: 10px;
+}
+.th4{
+    border: 1px solid black; background-color: gold; color: black; padding: 10px; margin: 10px;
+}
+.ErrorContainer {
+    padding: 100px 20px;
+    text-align: center;
+}
+.ErrorCode {
+    font-size: 120px;
+    margin: 0;
+    color: #1e3a8a;
+}
+.ErrorMSG {
+    font-size: 24px;
+    color: #555;
+}
+.toancreator {
+    background: url("../media/toancreator.jpg") no-repeat center center;
+    background-size: cover;
+}

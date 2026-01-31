@@ -1,0 +1,60 @@
+/* FIX GIAO DIỆN CHO ĐIỆN THOẠI */
+@media screen and (max-width: 480px) {
+.banner {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.UpAndDown {
+    font-size: 14px;        
+    padding: 10px;
+}
+input[type="image"] {
+    width: 80% auto !important;
+    height: auto;
+}
+.row {
+    padding-right: 4rem;
+    padding-left: 4rem;
+    font-size: 10px;
+}
+.Register {
+    width: 90%;
+    padding: 20px;)
+    margin: 20px auto;
+}
+.content {
+    font-size: 12px;
+    padding: 0px;
+}
+.content td {
+    padding: 5px;
+}
+.block_2 {
+    flex: 0 0 auto;
+    width: 75%;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: auto;
+}
+.btt {
+    width: 30px;
+    height: 30px;
+    font-size: 24px;   
+}
+.HOME {
+    font-size: 16px;
+}
+.EditList {
+    font-size: 16px;
+}
+}
+/* FIX GIAO DIỆN CHO MÁY TÍNH */
+
+@media screen and (min-width: 1024px) {
+
+.banner {
+
+    font-size: 30px;
+
+}
+}
